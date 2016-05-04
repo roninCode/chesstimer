@@ -1,0 +1,45 @@
+body {
+	background-color:  #008800;
+}
+
+
+/* TIMERS */
+.timer {
+	display: inline-block;
+	width: 45%;
+	border: 1px solid black;
+	background-color: white;
+}
+.timer:hover {
+	background-color: yellow;
+}
+
+.timer h2,
+.timer .time {
+	display: block;
+	text-align: center;
+}
+
+.timer .time {
+	font-size: 7em;
+	font-weight: bold;
+	text-shadow: 1px 1px 2px black; 
+}
+
+/* BUTTONS */
+button {
+	display: block;
+	margin: 1em auto;
+	font-size: 2em;
+	padding: 1em 2em;
+}
+
+button:hover {
+	background-color: orange;
+	color: white;
+}
+
+button:active {
+	background-color: black;
+	color: white;
+}
