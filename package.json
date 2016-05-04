@@ -1,0 +1,11 @@
+{
+  "name": "chesstimer",
+  "version": "1.0.0",
+  "description": "Kinda times chess games",
+  "main": "app.js",
+  "scripts": {
+  	"start": "browser-sync start --server --files '.'",
+  },
+  "author": "Jamie MacKillop",
+  "license": "MIT"
+}
