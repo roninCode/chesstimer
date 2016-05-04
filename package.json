@@ -4,8 +4,11 @@
   "description": "Kinda times chess games",
   "main": "app.js",
   "scripts": {
-  	"start": "browser-sync start --server --files '.'",
+    "start": "browser-sync start --server --files '.'"
   },
   "author": "Jamie MacKillop",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "browser-sync": "^2.12.5"
+  }
 }
